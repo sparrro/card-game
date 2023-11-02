@@ -54,7 +54,7 @@ function shuffle(array) {
     }
 }
 shuffle(deck)
-deck.unshift({suite: 'win', value: '', valeur: 'you cannot'})
+deck.push({suite: 'win', value: '', valeur: 'you cannot'})
 
 function setCardEl(card) {
     cardEl.innerHTML = `
